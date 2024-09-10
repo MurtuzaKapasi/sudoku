@@ -28,3 +28,17 @@ The program reads Sudoku puzzles from CSV files, allows users to make changes in
    Use a C++ compiler like `g++` to compile the code.
    ```bash
    g++ -o sudoku_solver sudoku_solver.cpp
+
+## Usage
+Select Sudoku Type: When prompted, choose the Sudoku grid type:
+
+1: 4x4 Sudoku
+2: 9x9 Sudoku
+3: Quit the game
+Interact with the Puzzle:
+
+For 4x4 Sudoku: Enter the row and column to place a number, then input the number (1-4).
+For 9x9 Sudoku: Enter the row and column to place a number, then input the number (1-9).
+Check Solution: When done, choose to solve the Sudoku. The program will display the solution and check if it matches the original puzzle.
+
+Exit: Choose to quit the game or continue with more entries.
